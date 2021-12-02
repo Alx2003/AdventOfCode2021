@@ -12,7 +12,7 @@ public class Day2_2 {
         int aim = 0;
         String[] command;
 
-        // iterate through data and adjust dist and depth accordingly.
+        // iterate through data and adjust aim, dist and depth accordingly.
         for (String s : input) {
             // check if command is forward, down, or up to adjust appropriate counter
             command = s.split(" ");
