@@ -10,8 +10,8 @@ public class Day1_1 {
         int count = 0;
 
         // iterate through data and increment count if next value if greater.
-        for (int i = 0; i < input.size() - 1; i++){
-            if (input.get(i + 1) > input.get(i)){
+        for (int i = 0; i < input.size() - 1; i++) {
+            if (input.get(i + 1) > input.get(i)) {
                 count++;
             }
         }
