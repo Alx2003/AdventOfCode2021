@@ -11,7 +11,7 @@ public class Day2_1 {
         int depth = 0;
         String[] command;
 
-        // iterate through data and adjust dist and depth accordingly.
+        // iterate through data input and adjust dist and depth accordingly.
         for (String s : input) {
             // check if command is forward, down, or up to adjust appropriate counter
             command = s.split(" ");
