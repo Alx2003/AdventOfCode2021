@@ -19,7 +19,7 @@ public class Day6_1 {
         }
 
         // iterate through 80 cycles (80 days) to model the population
-        for (int day = 0; day < 80; day++) {
+        for (int day = 0; day < 256; day++) {
             newFish = 0;
             for (int fish = 0; fish < ages.size(); fish++) {
                 // reset timer on fish if timer is 0
